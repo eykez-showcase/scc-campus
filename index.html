@@ -1,1 +1,89 @@
-<h1>WELCOME TO CAMPUS SCC</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steel City Codes - Campus Middle School</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Steel City Codes - Campus Middle School Chapter</h1>
+        <nav>
+            <ul>
+                <li><a href="#chapter-description">About Us</a></li>
+                <li><a href="#volunteer-tracking">Volunteer Tracking</a></li>
+                <li><a href="#class-schedule">Class Schedule</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Chapter Description -->
+        <section id="chapter-description">
+            <h2>About the Chapter</h2>
+            <p>Welcome to the Steel City Codes chapter at Campus Middle School! </p>
+            <p>Steel City Codes is on a mission to promote inclusivity in STEM by educating young students in computer science. Everything we offer is completely cost-free so that anybody, regardless of their situation, can take advantage of our offerings.</p>
+          <! def not taken straight from the SCC website>
+        </section>
+
+        <!-- Volunteer Tracking -->
+        <section id="volunteer-tracking">
+            <h2>Volunteer Tracking</h2>
+            <form id="volunteer-form" method="POST" action="/submit-volunteer">
+                <label for="volunteer-name">Name:</label>
+                <input type="text" id="volunteer-name" name="volunteer-name" required>
+
+                <label for="volunteer-date">Date of Volunteering:</label>
+                <input type="date" id="volunteer-date" name="volunteer-date" required>
+
+                <label for="volunteer-description">Description of Work:</label>
+                <textarea id="volunteer-description" name="volunteer-description" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <h3>Admin Panel</h3>
+            <p><a href="/admin">Access Volunteer Approvals</a></p>
+        </section>
+
+        <!-- Class Schedule -->
+        <section id="class-schedule">
+            <h2>Class Schedule</h2>
+            <p>Below is the schedule of our upcoming classes:</p>
+            <ul>
+                <li>Monday: Intro to Java - 4:30PM to 5:10PM </li>
+            </ul>
+        </section>
+
+        <!-- Resources -->
+        <section id="resources">
+            <h2>Resources</h2>
+            <p>Here are some useful resources for our students:</p>
+            <ul>
+                <li><a href="https://www.python.org">Python Official Documentation</a></li>
+                <li><a href="https://www.w3schools.com">W3Schools</a></li>
+                <li><a href="https://scratch.mit.edu">Scratch Programming</a></li>
+              <!should i attach the actual SCC slides?>
+            </ul>
+        </section>
+
+        <!-- Contact Us -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>For any questions, feel free to reach out to the chapter heads:</p>
+            <ul>
+                <li>Anna Kislenkova - akislenkova@cherrycreekschools.org</li>
+                <li>Elynor Sykes - esykes@cherrycreekschools.org</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Steel City Codes - Campus Middle School. All rights reserved.</p>
+      <!can you just say all rights reserved? i think it makes the website look more proffesional though...>
+    </footer>
+</body>
+</html>
