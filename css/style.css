@@ -259,6 +259,7 @@ h5 {
 .navbar-nav .nav-link {
   color: var(--bs-primary);
   font-weight: 600;
+  background-image: url(images/kidsworking.jpg);
 }
 
 .navbar-nav .nav-link.active,
@@ -353,7 +354,6 @@ button.filter-button {
 button.filter-button.active,
 button.filter-button:hover {
   color: var(--bs-light);
-  background: var(--primary-color);
 }
 
 
